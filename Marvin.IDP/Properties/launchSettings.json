@@ -2,30 +2,27 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
-    "iis": {
-      "applicationUrl": "http://localhost/ImageGallery.API",
-      "sslPort": 0
-    },
     "iisExpress": {
-      "applicationUrl": "http://localhost:1601/",
-      "sslPort": 44387
+      "applicationUrl": "http://localhost:5000",
+      "sslPort": 44372
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "Project",
+      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:1601/"
+      "applicationUrl": "https://localhost:44372/"
     },
-    "ImageGallery.API": {
+    "SelfHost": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:5000"
     }
   }
 }

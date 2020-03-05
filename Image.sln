@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.Client", "Imag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.Model", "ImageGallery.Model\ImageGallery.Model.csproj", "{4F9B82F5-516B-4B8C-AB88-6F6E7BC584D8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvin.IDP", "Marvin.IDP\Marvin.IDP.csproj", "{1850514A-1835-4885-8D43-899F0F3938C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4F9B82F5-516B-4B8C-AB88-6F6E7BC584D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F9B82F5-516B-4B8C-AB88-6F6E7BC584D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F9B82F5-516B-4B8C-AB88-6F6E7BC584D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1850514A-1835-4885-8D43-899F0F3938C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1850514A-1835-4885-8D43-899F0F3938C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1850514A-1835-4885-8D43-899F0F3938C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1850514A-1835-4885-8D43-899F0F3938C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
